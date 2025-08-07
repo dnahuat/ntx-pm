@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schema.tauri.app/v1",
+  "build": {
+    "distDir": "../dist",
+    "devPath": "../dist"
+  },
+  "package": {
+    "productName": "hello-tauri",
+    "version": "0.1.0"
+  },
+  "tauri": {
+    "bundle": {
+      "icon": []
+    },
+    "windows": [
+      {
+        "title": "Hello Tauri",
+        "width": 800,
+        "height": 600
+      }
+    ]
+  }
+}

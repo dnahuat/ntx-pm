@@ -5,6 +5,9 @@ edition = "2021"
 
 [dependencies]
 tauri = { version = "1", features = [] }
+once_cell = "1"
+serde = { version = "1", features = ["derive"] }
+serde_yaml = "0.9"
 
 [build-dependencies]
 tauri-build = { version = "1", features = [] }
